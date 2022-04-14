@@ -48,6 +48,7 @@
 		"isomorphic-unfetch": "^3.1.0",
 		"jest": "^27.5.1",
 		"jest-extended": "^2.0.0",
+		"nock": "^13.2.4",
 		"postcss": "^8.4.12",
 		"prettier": "^2.5.1",
 		"tailwindcss": "^3.0.24",
