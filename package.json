@@ -8,8 +8,8 @@
 		"start": "next start",
 		"lint": "next lint",
 		"test": "jest",
-		"test:unit": "yarn test test/unit",
-		"test:integration": "yarn test test/integration --runInBand",
+		"test:unit": "yarn test test/unit --forceExit",
+		"test:integration": "yarn test test/integration --runInBand --forceExit",
 		"test:watch": "yarn test --watch"
 	},
 	"repository": "git@github.com:SantiMA10/elgato-store-preview.git",
@@ -25,6 +25,7 @@
 	"devDependencies": {
 		"@next/eslint-plugin-next": "^12.0.8",
 		"@santima10/eslint-config": "2.2.0",
+		"@santima10/jest-chat-reporter": "^0.4.0",
 		"@santima10/next-api-test-utils": "^0.0.4",
 		"@testing-library/dom": "^8.13.0",
 		"@testing-library/jest-dom": "^5.16.4",
