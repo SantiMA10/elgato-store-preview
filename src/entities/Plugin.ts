@@ -1,3 +1,4 @@
+import { PluginCategory } from './PluginCategory';
 import { PluginVersion } from './PluginVersion';
 
 export interface Plugin {
@@ -12,7 +13,7 @@ export interface Plugin {
 		trusted: boolean;
 	};
 	staff_ranking: null;
-	category: 'com.elgato.audio';
+	category: PluginCategory;
 	download_count: number;
 	ratings: {
 		average_stars: string;

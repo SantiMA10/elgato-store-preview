@@ -16,7 +16,7 @@ export interface PluginVersion {
 		version_number: string;
 	};
 	minimum_os: Array<{
-		platform: 'windows' | 'macos';
+		platform: 'windows' | 'mac';
 		version_number: string;
 	}>;
 	contains_profile: boolean;
