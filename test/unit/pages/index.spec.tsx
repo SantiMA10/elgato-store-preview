@@ -6,6 +6,6 @@ describe('Home', () => {
 	it('welcomes the user', async () => {
 		const { getByText } = render(<Home />);
 
-		expect(getByText('Welcome to')).toBeInTheDocument();
+		expect(getByText('Welcome to Next.js!')).toBeInTheDocument();
 	});
 });
