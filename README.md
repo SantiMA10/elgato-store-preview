@@ -1,4 +1,4 @@
-# 👀 elgato store preview
+# 👀 elgato store preview [![Pipeline](https://github.com/SantiMA10/elgato-store-preview/actions/workflows/pipeline.yml/badge.svg)](https://github.com/SantiMA10/elgato-store-preview/actions/workflows/pipeline.yml)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
