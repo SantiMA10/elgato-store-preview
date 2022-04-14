@@ -1,0 +1,16 @@
+export type PluginCategory =
+	| 'com.elgato.audio'
+	| 'com.elgato.video'
+	| 'com.elgato.utilities'
+	| 'com.elgato.lighting'
+	| 'com.elgato.developer-tools'
+	| 'com.elgato.gaming'
+	| 'com.elgato.engagement'
+	| 'com.elgato.finance'
+	| 'com.elgato.productivity'
+	| 'com.elgato.music'
+	| 'com.elgato.social'
+	| 'com.elgato.smart-home'
+	| 'com.elgato.general'
+	| 'com.elgato.streaming'
+	| 'com.elgato.monitoring';
