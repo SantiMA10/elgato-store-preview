@@ -31,13 +31,15 @@ export const PluginCard = ({ plugin }: Props) => {
 		<div className="h-screen flex flex-col bg-slate-700 text-white">
 			<div className="grid grid-cols-2 flex-1">
 				<div className="flex items-center justify-center">
-					<img src={plugin.published_versions[0].icon_link} />
+					<img className="w-auto max-h-40" src={plugin.published_versions[0].icon_link} />
 				</div>
 				<div className="flex flex-col justify-center">
-					<p className="text-6xl font-bold underline">{plugin.name}</p>
-					<p className="text-4xl font-bold">{`by ${plugin.author.name}`}</p>
-					<p className="text-2xl mt-4 mb-4">{plugin.published_versions[0].description}</p>
-					<p className="text-2xl">{categories[plugin.category]}</p>
+					<p className="text-4xl font-bold underline">{plugin.name}</p>
+					<p className="text-2xl font-bold">{`by ${plugin.author.name}`}</p>
+					<p className="text-xl mt-4 mb-4 line-clamp-2">
+						{plugin.published_versions[0].description}
+					</p>
+					<p className="text-xl">{categories[plugin.category]}</p>
 				</div>
 			</div>
 

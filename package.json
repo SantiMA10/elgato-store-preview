@@ -34,6 +34,7 @@
 		"@santima10/eslint-config": "2.2.0",
 		"@santima10/jest-chat-reporter": "^0.4.0",
 		"@santima10/next-api-test-utils": "^0.0.4",
+		"@tailwindcss/line-clamp": "^0.3.1",
 		"@testing-library/dom": "^8.13.0",
 		"@testing-library/jest-dom": "^5.16.4",
 		"@testing-library/react": "^13.0.1",

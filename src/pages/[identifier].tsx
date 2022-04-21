@@ -35,7 +35,10 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 		};
 	}
 
-	if (!context.req.headers['user-agent']?.includes('Twitterbot')) {
+	if (
+		!context.req.headers['user-agent']?.includes('Twitterbot') &&
+		context.query.noRedirect === undefined
+	) {
 		return {
 			props: {},
 			redirect: {
