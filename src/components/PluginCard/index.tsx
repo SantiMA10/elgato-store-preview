@@ -28,7 +28,7 @@ const categories = {
 
 export const PluginCard = ({ plugin }: Props) => {
 	return (
-		<div className="min-h-screen flex flex-col bg-slate-700 text-white">
+		<div className="h-screen flex flex-col bg-slate-700 text-white">
 			<div className="grid grid-cols-2 flex-1">
 				<div className="flex items-center justify-center">
 					<img src={plugin.published_versions[0].icon_link} />
