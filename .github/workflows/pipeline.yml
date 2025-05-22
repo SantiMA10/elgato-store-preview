@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js 14.x
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: 'yarn'
       - run: yarn install --frozen-lockfile
       - run: yarn lint
@@ -28,7 +28,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: 'yarn'
       - run: yarn install --frozen-lockfile
       - run: 'yarn test:unit'
@@ -50,7 +50,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: 'yarn'
       - run: yarn install --frozen-lockfile
       - run: 'yarn test:integration'
@@ -65,7 +65,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
+          node-version: 22.x
           cache: 'yarn'
       # https://github.com/vercel/next.js/blob/canary/errors/no-cache.md#github-actions
       - name: Cache Next.js
